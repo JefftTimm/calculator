@@ -56,7 +56,7 @@ body {
 }
 .button.operator {
 	color: #D4FF17;
-	background-color: #103799;
+	background-color: blue;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
 }
