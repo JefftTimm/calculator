@@ -18,11 +18,11 @@ body {
 .display {
 	height: 20vh;
 	width: 100%;
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: #48A0CC;
 	font-size: 8vw;
 	text-align: right;
-	border: 8px solid black;
+	border: 8px solid #48A0CC;
 	padding: 0px;
 }
 
@@ -50,25 +50,25 @@ body {
 /*change from here to...*/
 .button.function {
 	color: green;
-	background-color: white;
+	background-color: #A6CC7E;
 	border-bottom: white 8px solid;
 	border-top: 4px white solid;
 }
 .button.operator {
-	color: orange;
-	background-color: white;
+	color: white;
+	background-color: #FFA937;
 	border-bottom: white 8px solid;
 	border-top: 4px white solid;
 }
 .button.style {
 	color: #00FF00;
-	background-color: white;
+	background-color: orange;
 	border-bottom: white 8px solid;
 	border-top: 4px white solid;
 }
 .button.number {
 	color: blue;
-	background-color: white;
+	background-color: green;
 	border-bottom: white 8px solid;
 	border-top: 4px white solid;
 }
