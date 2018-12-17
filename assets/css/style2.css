@@ -18,11 +18,11 @@ body {
 .display {
 	height: 20vh;
 	width: 100%;
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: #48A0CC;
 	font-size: 8vw;
 	text-align: right;
-	border: 8px solid black;
+	border: 8px solid #48A0CC;
 	padding: 0px;
 }
 
@@ -49,28 +49,28 @@ body {
 }
 /*change from here to...*/
 .button.function {
-	color: #00FF00;
-	background-color: black;
-	border-bottom: black 8px solid;
-	border-top: 4px black solid;
+	color: green;
+	background-color: #A6CC7E;
+	border-bottom: white 8px solid;
+	border-top: 4px white solid;
 }
 .button.operator {
-	color: #48A0CC;
-	background-color: black;
-	border-bottom: black 8px solid;
-	border-top: 4px black solid;
+	color: white;
+	background-color: #FFA937;
+	border-bottom: white 8px solid;
+	border-top: 4px white solid;
 }
 .button.style {
 	color: #00FF00;
-	background-color: black;
-	border-bottom: black 8px solid;
-	border-top: 4px black solid;
+	background-color: orange;
+	border-bottom: white 8px solid;
+	border-top: 4px white solid;
 }
 .button.number {
-	color: #00FCFF;
-	background-color: black;
-	border-bottom: black 8px solid;
-	border-top: 4px black solid;
+	color: blue;
+	background-color: green;
+	border-bottom: white 8px solid;
+	border-top: 4px white solid;
 }
 /*here*/
 /* Simulate Button Press */

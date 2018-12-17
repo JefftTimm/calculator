@@ -83,3 +83,9 @@ var Calculator = {
 		}, 1000);
 	}
 }
+function darkCalculator(){
+	document.getElementById('style').setAttribute('href', 'assets/css/style.css')
+}
+function lightCalculator(){
+	document.getElementById('style').setAttribute('href', 'assets/css/style2.css')
+}

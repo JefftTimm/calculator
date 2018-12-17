@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Calculator</title>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" id="style">
 <script type="text/javascript" src="assets/js/calculator.js"></script>
 
 <!--WEB APP-->
@@ -38,11 +38,11 @@
 		<button class="button function" onclick="Calculator.clearMem();">mc</button>
 		<button class="button function" onclick="Calculator.recallMem();">mr</button>
 		<button class="button function" onclick="Calculator.saveMem();">ms</button>
-		<button class="button operator" onclick="Calculator.type('/')">/</button>
+		<button class="button operator" onclick="Calculator.type('/')">÷</button>
 		<button class="button number" onclick="Calculator.type('7')">7</button>
 		<button class="button number" onclick="Calculator.type('8')">8</button>
 		<button class="button number" onclick="Calculator.type('9')">9</button>
-		<button class="button operator" onclick="Calculator.type('*')">×</button>
+		<button class="button operator" onclick="Calculator.type('*')">•</button>
 		<button class="button number" onclick="Calculator.type('4')">4</button>
 		<button class="button number" onclick="Calculator.type('5')">5</button>
 		<button class="button number" onclick="Calculator.type('6')">6</button>
@@ -59,6 +59,10 @@
 		<button class="button number" onclick="Calculator.type(Math.E)">e</button><!--e-->
 		<button class="button operator" onclick="Calculator.type('(')">(</button>
 		<button class="button operator" onclick="Calculator.type(')')">)</button>
+		<button class="button number" onclick="Calculator.type(Math.I)">i</button>
+		<button class="button number" onclick="Calculator.type('**')">x^y</button>
+		<button class="button style" onclick="darkCalculator()">dark</button>
+		<button class="button style" onclick="lightCalculator()">light</button>
 	</div>
 <script>
 if ('serviceWorker' in navigator) {
